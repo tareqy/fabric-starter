@@ -17,3 +17,12 @@ def uptime():
 	shows system uptime
 	"""
 	run("uptime")
+
+# Sample Parallel task, runs on all systems at once :)
+@task
+@parallel
+def kernel_version():
+	"""
+	shows system uptime
+	"""
+	run("uname -a")
