@@ -12,3 +12,12 @@ fab <task_name>
 e.g. fab uptime
 ```
 
+### How to Install Fabric?
+```
+sudo pip install fabric
+```
+
+### If you don't have pip
+```
+sudo easy_install pip
+```
